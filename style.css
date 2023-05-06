@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: #D9BFA9;
+}
+
+
+/* Color Theme Swatches in RGBA
+.color-theme_Screen-Shot-2022-10-04-at-9-1-rgba { color: rgba(182, 191, 163, 1); }
+.color-theme_Screen-Shot-2022-10-04-at-9-2-rgba { color: rgba(242, 205, 160, 1); }
+.color-theme_Screen-Shot-2022-10-04-at-9-3-rgba { color: rgba(242, 237, 232, 1); }
+.color-theme_Screen-Shot-2022-10-04-at-9-4-rgba { color: rgba(216, 191, 168, 1); }
+.color-theme_Screen-Shot-2022-10-04-at-9-5-rgba { color: rgba(89, 68, 56, 1); } */
+
+/* Gradient in Hex */
+/* linear-gradient(to right, #C430D9 0%, 21.157684922218323%, #F23107 42.315369844436646%, 71.15768492221832%, #0D0D0D 100%); */
+
+/* Gradient in RGBA */
+/* linear-gradient(to right, rgba(196, 48, 217, 1) 0%, 21.157684922218323%, rgba(242, 49, 7, 1) 42.315369844436646%, 71.15768492221832%, rgba(13, 13, 13, 1) 100%); */
+
+
+h1{
+    margin-top: 20px;
+    color:#594438;
+    font-size: 5em;
+    font-family: 'Audiowide', cursive;
+}
+
+h1:hover{
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h2{
+    color: #594438;
+    margin:10px 10px;
+    font-family: 'Audiowide', cursive;
+}
+
+div{
+    
+    border: 2px solid #594438;
+    width: 70vw;
+    height: 17em;
+    margin:100px auto;
+    background-color: #f5e8d8;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: auto;
+}
+
+img{
+    height: 15em;
+    margin: 10px;
+    float: left;
+}
+
+p{
+    text-align: justify;
+    font-size: 1em;
+    color: #a4b877;
+    margin: 10px;
+    font-family: 'Audiowide', cursive;
+    
+}
+
+a{  
+    border: 2px solid #594438;
+    font-size: 20px;
+    color: #594438;
+    background-color:#D9BFA9 ;
+    float:right;
+    margin: 10px;
+    border-radius: 10px;
+    height: 1em;
+    height: 1.4em;
+    width: auto;
+    text-decoration: none;
+    font-family: 'Audiowide', cursive;
+    
+    
+}
+
+div:hover{
+    height: 300px;
+    width: 75vw;
+    font-size: 1.1em ;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;;
+    
+}
+
+a:hover{
+    
+    font-size: 1.2em;
+    width: auto;
+    
+}
+
+
+
